@@ -11,3 +11,5 @@
 
 You might need to run `docker compose build --no-cache` after changing the value
 to update it in the container.
+
+For additional info and research, see [Docker build secrets in Coolify](https://github.com/Cryszon/me/blob/main/tools/coolify/docker-build-secrets-in-coolify.md).
