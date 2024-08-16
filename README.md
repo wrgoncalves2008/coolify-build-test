@@ -8,3 +8,6 @@
 4. Deploy
 5. Go to **Command** and run `cat test_secret_file` command
 6. Command output should be whatever value you set to `TEST_SECRET`
+
+You might need to run `docker compose build --no-cache` after changing the value
+to update it in the container.
