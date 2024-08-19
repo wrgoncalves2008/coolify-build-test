@@ -1,0 +1,10 @@
+# docker-compose.yml
+services:
+  app:
+    build:
+      secrets:
+        - MY_ACCESS_TOKEN
+
+secrets:
+  MY_ACCESS_TOKEN:
+    environment: MY_ACCESS_TOKEN
