@@ -1,0 +1,7 @@
+# docker-compose.yml
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+    environment:
+      - ANOTHER_TEST_SECRET
