@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-# ENV NOME=${NOME}
+ENV TESTE=${NOME}
 RUN echo 'WSAC'
-RUN echo ${NOME}
+RUN echo ${TESTE}
 
 ENTRYPOINT ["tail", "-f", "/dev/null"]
